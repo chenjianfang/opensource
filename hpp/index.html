@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>model</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/main.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/common.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/cont-box.css">
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="navbar">
+			<div class="side-of-big">
+				<div class="nav-header">
+					<div class="js-img-circle">
+						<span class="img-circle">
+						</span>
+					</div>
+					<p class="user-name basic-font-text"></p>
+					<p class="auth-class basic-font-text"></p>
+					<ul class="drop-fadein" data-id="drop">
+						<li class="drop-item js-select-item js-change-logo" data-id="drop1">修改头像</li>
+						<li class="drop-item js-select-item js-person-msg" data-id="drop2">个人资料</li>
+						<li class="drop-item js-select-item" data-id="drop3">联系我们</li>
+						<li class="drop-item js-select-item" data-id="drop4">信箱</li>
+						<li class="safe-exit js-safe-exit" data-id="drop5">安全退出</li>
+					</ul>
+				</div>
+				<ul class="side-menu">
+					<li class="side-item add-secon" data-id="1">
+						<span class="side-icon"></span>
+						<span class="side-title">主页动画</span>
+					</li>
+					<li class="side-item add-secon" data-id="2">
+						<span class="side-icon"></span>
+						<span class="side-title">主页动画</span>
+					</li>
+					<li class="side-item add-secon" data-id="3">
+						<span class="side-icon"></span>
+						<span class="side-title">主页动画</span>
+					</li>
+					<li class="side-item js-select-item" data-id="4">
+						<span class="side-icon"></span>
+						<span class="side-title">主页动画</span>
+					</li>
+					<li class="side-item js-select-item" data-id="5">
+						<span class="side-icon"></span>
+						<span class="side-title">主页动画</span>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="page-wrapper">
+			<div>
+				<header class="page-header">
+					<div class="header-left">
+						<span class="side-nav-button js-side-nav-button"></span>
+						<form>
+							<input type="text" class="head-serch-input" placeholder="请输入您需要查找的内容...">
+						</form>
+					</div>
+					<div class="header-right">
+						<span>消息</span>
+					</div>
+				</header>
+				<div class="content-tabs">
+					<div class="tabs-item">首页</div>
+					<ul class="menuTab">
+						<li class="tabs-item">菜单</li>
+						<li class="tabs-item tab-active">选中</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 中间内容显示区域 -->
+			<div class="content-box">
+
+				<!-- 修改头像 -->
+				<div id="change-logo" class="content-first-child">
+					<div class="imgUpload-title">
+						<h2 class="imgUpload">本地上传</h2>
+					</div>
+					<label class="imgUpload-square" for="img-add">
+						<input type="file" id="img-add" accept="image/png,image/gif,image/jpeg,image/jpg" style="display:none">
+						<div class="img-add-click">
+							<p>+</p>
+							<p>添加照片</p>
+						</div>
+					</label>
+					<div class="click-img-submit">上传</div>
+				</div>
+
+				<!-- 个人资料 -->
+				<div class="content-first-child" id="person-msg">
+					<div class="person-left">
+						<article>
+							<h2 class="com-title">个人资料</h2>
+							<img class="com-img-show" src="../../image/profile_big.jpg">
+						</article>
+						<ul class="detail-text">
+							<li class="com-detail-text-title">
+								chenjef
+							</li>
+							<li class="com-detail-text-cont">
+								深圳市福田区我也不知道在哪里
+							</li>
+							<li class="com-detail-text-title">
+								关于我
+							</li>
+							<li class="com-detail-text-cont">
+								chenjef关于我关于我关于我henjefchenjefchenjefchenjefchenjefchenjefchenjefchenjefchenjefchenjefchenjefchenjef
+							</li>
+							<li class="follow">
+								<span class="author-article">169文章</span>
+								<span class="follower">28关注</span>
+								<span class="following">240关注者</span>
+							</li>
+							<li class="user-privat-msg">
+								<span class="com-button-hav">发消息</span>
+								<span class="com-button-nohav">赞助</span>
+							</li>
+						</ul>
+					</div>
+					<div class="person-right">
+						<h2 class="com-title">最新动态</h2>
+						<div class="comment-textarea-box push-new-status clearfix">
+							<textarea class="trends-input-comment js-report-self-value" placeholder="评论吐槽"></textarea>
+							<div class="report-status js-report-status">发表</div>
+						</div>
+						<ul class="per-trends">
+							
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
+	<script type="text/javascript" src="./lib/jquery-3.1.0.min.js"></script>
+	<script src="dist/js/main.js"></script>
+</body>
+</html>
